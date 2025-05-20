@@ -6,7 +6,7 @@
             <ul class="navbar-nav ms-auto my-2 my-lg-0">
                 {% for item in site.data.menus.header  %}
                 <li class="nav-item">
-                    <a class="nav-link js-scroll-trigger" href="{{ item.url | relative_url }}">{{ item.title }}</a>
+                    <a class="nav-link js-scroll-trigger" href="{{ item.url }}">{{ item.title }}</a>
                 </li>
                 {% endfor %}
             </ul>

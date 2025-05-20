@@ -1,9 +1,10 @@
 # Site settings
-title: Your Title Here
+title: Bruiloft - Aron & Henrieke
 description: > # this means to ignore newlines until "baseurl:"
-repository: vvalchev/creative-theme-jekyll-new
-baseurl: "/creative-theme-jekyll-new/" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+  Hier vind je alle informatie over onze bruiloft :)
+repository: AZWN/bruiloft-website
+baseurl: "/" # the subpath of your site, e.g. /blog/
+url: "http://localhost:7654" # the base hostname & protocol for your site
 author: Copyright &copy; 2019 - Start Bootstrap
 lang: en_US
 
