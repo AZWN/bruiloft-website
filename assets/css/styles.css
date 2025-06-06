@@ -77,6 +77,15 @@
   --bs-link-hover-color: #c34e2e;
   --bs-code-color: #d63384;
   --bs-highlight-bg: #fff3cd;
+
+  --bs-wedding-blue: #414f7e;
+  --bs-wedding-blue-light: #94cce3;
+  --bs-wedding-green: #5c785a;
+  --bs-wedding-green-light: #b1c7ae;
+  --bs-wedding-peach: #ff975b;
+  --bs-wedding-peach-light: #ffd4ba;
+  --bs-wedding-creme: #ffe2d1;
+  --bs-wedding-creme-light: #faf2e4;
 }
 
 *,
@@ -246,7 +255,7 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
+  color: var(--bs-wedding-peach);
   text-decoration: underline;
 }
 a:hover {
@@ -7174,7 +7183,7 @@ textarea.form-control-lg {
 
 .border-primary {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  border-color: var(--bs-wedding-peach) !important;
 }
 
 .border-secondary {
@@ -8109,6 +8118,46 @@ textarea.form-control-lg {
   color: inherit !important;
 }
 
+.text-wedding-blue {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-blue) !important;
+}
+
+.text-wedding-blue-light {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-blue-light) !important;
+}
+
+.text-wedding-creme {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-creme) !important;
+}
+
+.text-wedding-creme-light {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-creme-light) !important;
+}
+
+.text-wedding-green {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-green) !important;
+}
+
+.text-wedding-green-light {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-green-light) !important;
+}
+
+.text-wedding-peach {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-peach) !important;
+}
+
+.text-wedding-peach-light {
+  --bs-text-opacity: 1;
+  color: var(--bs-wedding-peach-light) !important;
+}
+
 .text-opacity-25 {
   --bs-text-opacity: 0.25;
 }
@@ -8183,6 +8232,48 @@ textarea.form-control-lg {
 .bg-transparent {
   --bs-bg-opacity: 1;
   background-color: transparent !important;
+}
+
+.bg-wedding-blue-light {
+  --bs-bg-opacity: 1;
+  /* Does not work for some reason, skipping opacity */
+  /* background-color: rgba(var(--bs-wedding-blue-light), var(--bs-bg-opacity)) !important; */
+  background-color: var(--bs-wedding-blue-light) !important;
+}
+
+.bg-wedding-blue {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-wedding-blue) !important;
+}
+
+.bg-wedding-green-light {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-wedding-green-light) !important;
+}
+
+.bg-wedding-green {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-wedding-green) !important;
+}
+
+.bg-wedding-peach-light {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-wedding-peach-light) !important;
+}
+
+.bg-wedding-peach {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-wedding-peach) !important;
+}
+
+.bg-wedding-creme-light {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-wedding-creme-light) !important;
+}
+
+.bg-wedding-creme {
+  --bs-bg-opacity: 1;
+  background-color: var(--bs-wedding-creme) !important;
 }
 
 .bg-opacity-10 {
@@ -10856,12 +10947,12 @@ hr.divider {
   height: 0.2rem;
   max-width: 3.25rem;
   margin: 1.5rem auto;
-  background-color: #f4623a;
+  background-color: var(--bs-wedding-peach);
   opacity: 1;
 }
 
 hr.divider-light {
-  background-color: #fff;
+  background-color: var(--bs-wedding-peach-light);
 }
 
 #mainNav {
