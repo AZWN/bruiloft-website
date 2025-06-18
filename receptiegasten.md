@@ -12,11 +12,11 @@ sections:
   - name: "Maandag 25 Augustus"
     items: 
     - text: "16:00 - Trouwdienst"
-      sub_text: "[Grote Kerk te Loenen](#kerk-loenen)"
+      location: kerk-loenen
   - name: "Dinsdag 26 Augustus"
     items: 
     - text: "19:30 - Receptie"
-      sub_text: "[Ottenhome](#ottenhome)"
+      location: ottenhome
     - text: "22:15 - Uitzwaaien"
   
   
