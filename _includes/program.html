@@ -13,8 +13,14 @@
         <h2 class="text-wedding-blue mt-0 text-center">{{day.name}}</h2>
         <hr class="divider border border-primary border-2">
         {% for item in day.items %}
-        <div class="text-wedding-green text-center {% if item.sub_textxx %}p-mb-0{% endif%}">{{item.text | markdownify}}</div>
+        <div class="text-wedding-green text-center my-1">
+            {{item.text}}
+            {% if item.location %}
+            <a href="#{{item.location}}"><i class="bi text-wedding-peach bi-geo-alt-fill"></i></a>
+            {% endif %}
+        </div>
         {% if item.sub_textxxx %}
+        
         <div class="text-wedding-green text-center small">{{ item.sub_text | markdownify}}</div>
         {% endif %}
         {% endfor %}

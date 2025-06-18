@@ -72,7 +72,7 @@ sections:
     map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.885236918978!2d5.0230558!3d52.209132999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6739c2f0c513d%3A0x539f94ed6baf930d!2sGrote%20Kerk%20Loenen!5e0!3m2!1snl!2snl!4v1750268733209!5m2!1snl!2snl
   - name: Ottenhome
     id: ottenhome
-    text: "Diner & Receptie"
+    text: "Receptie"
     map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.8173571236725!2d5.0764949!3d52.228536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66da1ca921c41%3A0x20a145b04b7db603!2sOttenhome!5e0!3m2!1snl!2snl!4v1750268886386!5m2!1snl!2snl
 ---
 

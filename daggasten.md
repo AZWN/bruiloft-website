@@ -12,24 +12,24 @@ sections:
   - name: Maandag 25 Augustus
     items: 
     - text: "12:15 - Ontvangst & Lunch"
-      sub_text: "[Oostkanaaldijk](#oostkanaaldijk)"
+      location: oostkanaaldijk
     - text: "13:45 - Fotomoment"
     - text: "14:30 - Ceremonie"
     - text: "16:00 - Trouwdienst"
-      sub_text: "[Grote Kerk te Loenen](#kerk-loenen)"
+      location: kerk-loenen
     - text: "19:00 - Diner"
-      sub_text: "[Oostkanaaldijk](#oostkanaaldijk)"
+      location: oostkanaaldijk
     - text: "21:00 - Dagsluiting"
   - name: Dinsdag 26 Augustus
     items: 
     - text: "10:30 - Ontvangst"
-      sub_text: "[Grote Kerk Eemnes](#kerk-eemnes)"
+      location: kerk-eemnes
     - text: "11:00 - Concert"
     - text: "13:15 - Lunch"
-      sub_text: "[Oostkanaaldijk](#oostkanaaldijk)"
+      location: oostkanaaldijk
     - text: "14:45 - Spel"
     - text: "17:00 - Diner"
-      sub_text: "[Ottenhome](#ottenhome)"
+      location: ottenhome
     - text: "19:30 - Receptie"
     - text: "22:15 - Uitzwaaien"
   
