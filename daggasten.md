@@ -76,7 +76,7 @@ sections:
       url: https://www.lijstje.nl/aron-henrieke
     - title: Upload foto's
       icon: bi-camera text-wedding-peach
-      url: https://www.lijstje.nl/aron-henrieke
+      url: https://photos.app.goo.gl/TUaw33qZzHZUnX4MA 
     - title: Podcast
       icon: bi-mic text-wedding-green
       url: https://www.lijstje.nl/aron-henrieke
