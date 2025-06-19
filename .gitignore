@@ -4,3 +4,5 @@ _site/
 /vendor/
 
 .jekyll-metadata
+
+*.zip
