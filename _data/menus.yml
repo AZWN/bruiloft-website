@@ -4,6 +4,6 @@
 # run. So please, fill in any custom menu entry here.
 header:
 - title: Daggasten
-  url: /daggasten
+  url: daggasten
 - title: Receptiegasten
-  url: /receptiegasten
+  url: receptiegasten
