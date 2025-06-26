@@ -10,6 +10,7 @@ if [ -z "$1" ]; then
     ./build-in-docker.sh build
   zip -r site.zip _site
 else
+  chmod -R a+rwX /srv/jekyll
   bundle install --jobs=4
   bundle exec jekyll build
 fi
