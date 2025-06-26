@@ -258,6 +258,7 @@ a {
   color: var(--bs-wedding-peach);
   text-decoration: underline;
 }
+
 a:hover {
   color: var(--bs-link-hover-color);
 }

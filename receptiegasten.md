@@ -60,6 +60,9 @@ sections:
     - title: Verlanglijstje
       icon: bi-gift text-wedding-blue
       url: https://www.lijstje.nl/aron-henrieke
+    - title: Kerkdienst
+      icon: fa-solid fa-church text-wedding-green
+      url: https://kerkdienstgemist.nl/stations/561-Hervormde-Gemeente-Loenen-aan-de-Vecht/events/live
 
 - type: address.html
   section_id: addresses
