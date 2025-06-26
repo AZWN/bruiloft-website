@@ -11096,3 +11096,8 @@ header.masthead h1, header.masthead .h1 {
 .page-title {
   font-family: "Playfair Display";
 }
+
+.fa-solid {
+  line-height: 96px;
+  padding-top: 2px;
+}
