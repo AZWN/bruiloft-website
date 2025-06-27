@@ -8,6 +8,7 @@ sections:
   section_id: programma
   background_style: bg-wedding-creme-light
   title: Programma
+  title_style: text-wedding-blue
   days:
   - name: "Maandag 25 Augustus"
     items: 
@@ -23,18 +24,21 @@ sections:
   section_id: brief
   background_style: bg-wedding-green-light
   title: "Brief bij Trouwkaart"
+  title_style: text-wedding-blue
   letter: receptiegasten
 
 - type: google-form.html
   section_id: registration
   background_style: bg-wedding-creme
   title: Aanmelden
+  title_style: text-wedding-blue
   link: registration-receptiegasten
   height: 1200
 
 - type: services.html
   section_id: aanmelden
   title: "Handige Links"
+  title_style: text-wedding-blue
   background_style: bg-wedding-blue-light
   services:
     - title: Verlanglijstje
@@ -48,6 +52,7 @@ sections:
 - type: address.html
   section_id: addresses
   title: "Locaties"
+  title_style: text-wedding-blue
   background_style: bg-wedding-peach-light
   locations:
   - name: Grote Kerk Loenen aan de Vecht

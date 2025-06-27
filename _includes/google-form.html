@@ -1,5 +1,7 @@
 <section id="{{ section.section_id }}" class="page-section {{ section.background_style }}">
   <div class="container px-4 px-lg-5">
+    <h2 class="text-center mt-0 {{section.title_style}}">{{ section.title }}</h2>
+    <hr class="divider border border-primary border-2">
     <iframe src="{{ site.data.links[section.link] }}" width="100%" height="{{section.height}}" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
   </div>
 </section>
