@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Daggasten
-background_style: bg-wedding-blue-light # for registration form
+background_style: bg-wedding-peach-light # for registration form
 
 sections:
 - type: program.html

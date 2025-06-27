@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Receptiegasten
-background_style: bg-wedding-blue-light
+background_style: bg-wedding-peach-light
 
 sections:
 - type: program.html
