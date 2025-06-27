@@ -10964,7 +10964,7 @@ hr.divider-light {
 #mainNav .navbar-brand {
   font-family: "Playfair Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-weight: 700;
-  color: #212529;
+  color: var(--bs-wedding-creme-light) !important;
 }
 #mainNav .navbar-nav .nav-item .nav-link {
   /* color: 'white'; */
@@ -10972,9 +10972,10 @@ hr.divider-light {
   font-weight: 700;
   font-size: 0.9rem;
   padding: 0.75rem 0;
+  color: var(--bs-wedding-creme-light) !important;
 }
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #f4623a !important;
 }
 #mainNav .navbar-nav .nav-item .nav-link.active {
   color: #f4623a !important;
@@ -10988,14 +10989,14 @@ hr.divider-light {
     color: rgba(255, 255, 255, 0.7);
   }
   #mainNav .navbar-brand:hover {
-    color: #fff;
+    color: #f4623a !important;
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     color: rgba(255, 255, 255, 0.7);
     padding: 0 1rem;
   }
   #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #fff;
+    color: #f4623a;
   }
   #mainNav .navbar-nav .nav-item:last-child .nav-link {
     padding-right: 0;
