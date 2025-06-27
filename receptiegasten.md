@@ -24,7 +24,7 @@ sections:
   section_id: brief
   background_style: bg-wedding-green-light
   title: "Brief bij Trouwkaart"
-  text: >+
+  text: |
     ### Kopje
 
     In te vullen door de ceremoniemeesters.
@@ -48,7 +48,7 @@ sections:
     2. Consectetur adipiscing elit
     3. Integer molestie lorem at massa
    
-    Link
+    ### Link
 
     Deze [link](#oostkanaaldijk) verwijst naar de oostkanaaldijk
 
