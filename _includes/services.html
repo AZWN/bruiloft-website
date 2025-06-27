@@ -15,7 +15,7 @@
       {% for service in section.services %}
       <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
         <div class="mt-5">
-          <a href="{{ service.url }}" class="text-decoration-none">
+          <a href="{{ site.data.links[service.link] }}" class="text-decoration-none">
             <div class="mb-2"><i class="text-primary {{ service.icon }}" style="font-size: 64px;"></i></div>
             <h3 class="h4 mb-2">{{ service.title }}</h3>
             <div class="text-muted mb-0" style="color: inherit;">

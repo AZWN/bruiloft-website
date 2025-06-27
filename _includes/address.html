@@ -14,7 +14,8 @@
         <div class="text-wedding-blue mb-4 text-center">
           {{location.text}}
         </div>
-        <iframe src="{{ location.map }}" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
+        {% assign map = location.id %}
+        <iframe src="{{ site.data.links[map] }}" width="100%" height="320" frameborder="0" style="border:0" allowfullscreen></iframe>
       </div>
       {% endfor %}
     </div>

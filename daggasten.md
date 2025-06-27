@@ -39,26 +39,31 @@ sections:
   background_style: bg-wedding-green-light
   title: "Brief bij Trouwkaart"
   letter: daggasten
-    
+
+- type: google-form.html
+  section_id: registration
+  background_style: bg-wedding-creme
+  title: Aanmelden
+  link: registration-daggasten
+  height: 1200
 
 - type: services.html
-  section_id: aanmelden
+  section_id: links
   title: "Handige Links"
   background_style: bg-wedding-blue-light
   services:
     - title: Verlanglijstje
       icon: bi bi-gift text-wedding-blue
-      url: https://www.lijstje.nl/aron-henrieke
+      link: gifts 
     - title: Kerkdienst
       icon: fa-solid fa-church text-wedding-green
-      url: https://kerkdienstgemist.nl/stations/561-Hervormde-Gemeente-Loenen-aan-de-Vecht/events/live
+      link: church-service 
     - title: Upload foto's
       icon: bi bi-camera text-wedding-peach
-      url: https://photos.app.goo.gl/TUaw33qZzHZUnX4MA 
+      link: pictures 
     - title: Podcast
       icon: bi bi-mic text-wedding-green
-      url: https://www.lijstje.nl/aron-henrieke
-  text: "Meld u aan"
+      link: podcast
 
 - type: address.html
   section_id: addresses
@@ -68,20 +73,16 @@ sections:
   - name: Oostkanaaldijk
     id: oostkanaaldijk
     text: "Ontvangst, Ceremonie & Gezelligheid 🎉"
-    map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.734632892129!2d5.006883776776917!3d52.23003885765686!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c672e6cab66f39%3A0x72553236f4a1e815!2sOostkanaaldijk%208%2C%203632%20GA%20Loenen%20aan%20de%20Vecht!5e0!3m2!1snl!2snl!4v1750267981128!5m2!1snl!2snl
   - name: Grote Kerk Loenen aan de Vecht
     id: kerk-loenen
     text: "Trouwdienst"
-    map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.885236918978!2d5.0230558!3d52.209132999999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c6739c2f0c513d%3A0x539f94ed6baf930d!2sGrote%20Kerk%20Loenen!5e0!3m2!1snl!2snl!4v1750268733209!5m2!1snl!2snl
   - name: Grote Kerk Eemnes
     id: kerk-eemnes
     text: "Concert"
-    map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2442.516805014667!2d5.265318800000001!3d52.2521597!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c61550d6331d4b%3A0x251a6bebe43f33b1!2sGrote%20of%20Sint-Nicolaaskerk%20(Eemnes)!5e0!3m2!1snl!2snl!4v1750268824669!5m2!1snl!2snl
   - name: Ottenhome
     id: ottenhome
     text: "Diner & Receptie"
-    map: https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.8173571236725!2d5.0764949!3d52.228536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66da1ca921c41%3A0x20a145b04b7db603!2sOttenhome!5e0!3m2!1snl!2snl!4v1750268886386!5m2!1snl!2snl
 ---
 
 <!-- Background managed at page level -->
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSehOo377JMwMc8C3erjoHAAVsWAOwQp2Mx1K4yXSkHwlM-aiQ/viewform?embedded=true" width="100%" height="2000" frameborder="0" marginheight="0" marginwidth="0">Laden…</iframe>
+
