@@ -12,7 +12,7 @@ sections:
   days:
   - name: Maandag 25 Augustus
     items: 
-    - text: "12:15 - Ontvangst & Lunch"
+    - text: "12:00 - Ontvangst & Lunch"
       location: oostkanaaldijk
     - text: "13:45 - Fotomoment"
     - text: "14:30 - Ceremonie"
