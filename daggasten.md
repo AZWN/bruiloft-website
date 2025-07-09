@@ -65,9 +65,9 @@ sections:
     - title: Upload foto's
       icon: bi bi-camera text-wedding-peach
       link: pictures 
-    - title: Podcast
-      icon: bi bi-mic text-wedding-green
-      link: podcast
+#    - title: Podcast
+#      icon: bi bi-mic text-wedding-green
+#     link: podcast
 
 - type: address.html
   section_id: addresses
